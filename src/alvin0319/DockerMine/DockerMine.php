@@ -27,7 +27,7 @@ final class DockerMine extends PluginBase{
 	use SingletonTrait;
 
 	/** @var DockerContainerInstance[] */
-	protected array $instances = [];
+	protected $instances = [];
 
 	public function onLoad() : void{ self::setInstance($this); }
 
