@@ -1,0 +1,12 @@
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/TeamBixby/DockerMine
+build-by-default: true
+branches:
+- master
+projects:
+  DockerMine:
+    path: ""
+    libs:
+      - src: alvin0319/libDockerHandler/libDockerHandler
+        branch: master
+        version: ^1.0.0
+...
